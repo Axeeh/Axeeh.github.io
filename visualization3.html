@@ -126,16 +126,19 @@
         </section>
 
 	<section>
-            <h2>Pre-Processing Steps (1)</h2>
-	        1. Renamed columns to more descriptive names for clarity (e.g., country_code to country).
-		2. Dropped unnecessary columns like end_time and duration that were irrelevant for the analysis.
-		3. Replaced country abbreviations (e.g., AU, BE) with full country names for better readability.
-		4. Removed invalid characters (`<`, `L`, `N`) from isotope concentration columns. Converted these columns to numeric format for accurate calculations.
-		5. Fixed swapped latitude and longitude values by renaming columns and adjusting misplaced data.
-		6. Grouped data by `locality`, `date`, and `country` to calculate mean values for isotope concentrations.
-		7. Applied linear interpolation to fill missing values in isotope concentration columns.
-		8. Summed isotope concentrations at the country level for a consolidated overview
-        </section>
+	    <h2>Pre-Processing Steps (1)</h2>
+	    <ol>
+	        <li>Renamed columns for clarity (e.g., <code>country_code</code> → <code>country</code>).</li>
+	        <li>Dropped irrelevant columns like <code>end_time</code> and <code>duration</code>.</li>
+	        <li>Replaced country abbreviations (e.g., <code>AU</code>, <code>BE</code>) with full names.</li>
+	        <li>Cleaned invalid characters (<code>&lt;</code>, <code>L</code>, <code>N</code>) from isotope concentration columns.</li>
+	        <li>Converted isotope concentration columns to numeric values.</li>
+	        <li>Fixed swapped latitude and longitude values.</li>
+	        <li>Grouped data by <code>locality</code>, <code>date</code>, and <code>country</code> to calculate mean values for isotopes.</li>
+	        <li>Applied linear interpolation to fill missing values.</li>
+	        <li>Summed isotope concentrations at the country level for a consolidated overview.</li>
+	    </ol>
+</section>
 
 	<section>
             <h2>Visualization (1) </h2>
