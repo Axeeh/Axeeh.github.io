@@ -1,0 +1,22 @@
+
+**Title:** Radioactive Isotope Concentrations Post-Chernobyl Disaster
+
+**Context:**
+The Chernobyl disaster, which began on April 26, 1986, caused an unprecedented release of radioactive material from a nuclear reactor. This dataset tracks the concentration of radioactive isotopes (Iodine-131, Caesium-134, and Caesium-137) in aerosol particles across Europe during the first 60 days following the incident.
+
+**Data Sources:**
+The dataset was extracted from the REM data bank at CEC Joint Research Centre Ispra, downloaded from Kaggle, and is also available on the JRC Directorate for Nuclear Safety and Security.
+
+**Dataset Content:**
+Columns in the dataset:
+- `country`: Full country name.
+- `country_code`: ISO country abbreviation.
+- `locality`: Name of the locality where measurements were taken.
+- `latitude` and `longitude`: Geographical coordinates of measurement locations.
+- `date`: Date of sampling.
+- `iodine131`, `caesium134`, `caesium137`: Concentrations (in Bq/m³) of the respective isotopes.
+
+
+**Acknowledgments:**
+The dataset and its preprocessing were derived from Kaggle and the JRC Directorate for Nuclear Safety and Security.
+

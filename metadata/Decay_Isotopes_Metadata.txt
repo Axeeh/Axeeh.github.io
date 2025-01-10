@@ -1,0 +1,36 @@
+
+Title: Decay Curves of Radioactive Isotopes
+
+Context:
+The graph illustrates the decay curves of three radioactive isotopes—Iodine-131 (I-131), Caesium-134 (Cs-134), and Caesium-137 (Cs-137)—over a timeline of 50,000 days. The y-axis represents the fraction of the isotope remaining, and the x-axis shows time in days.
+
+The half-life of a radioactive isotope is the amount of time it takes for half of the atoms in a sample to decay into a more stable form. It is a measure of the rate of radioactive decay. Half-life is independent of the amount of the substance or its environmental conditions (e.g., temperature, pressure).
+
+Each isotope has a unique half-life, ranging from fractions of a second to billions of years.
+
+Dataset:
+The dataset was generated synthetically based on known scientific principles, specifically the radioactive decay law.
+
+Columns in the dataset:
+- Time (days): Time elapsed since the start of the decay process.
+- Iodine-131 (Fraction Remaining): Fraction of I-131 remaining over time.
+- Caesium-134 (Fraction Remaining): Fraction of Cs-134 remaining over time.
+- Caesium-137 (Fraction Remaining): Fraction of Cs-137 remaining over time.
+
+Half-Lives of Isotopes:
+1. Iodine-131 (I-131): Half-life is approximately 8 days. 
+   Source: (https://www.who.int/news-room/questions-and-answers/item/radiation-the-chernobyl-accident?)
+2. Caesium-134 (Cs-134): Half-life is approximately 2 years (730 days). 
+   Source: (https://www.unscear.org/unscear/en/areas-of-work/chernobyl.html)
+3. Caesium-137 (Cs-137): Half-life is approximately 30 years (10,950 days). 
+   Source: (https://dec.alaska.gov/eh/radiation/half-lives-explained)
+
+Formula:
+The exponential decay formula was used to calculate the fraction of radioactive material remaining at a given time:
+    N(t) = N0 * e^(-λt)
+Where:
+- λ (decay constant) = ln(2) / Half-life
+- t = time in days
+
+Acknowledgments:
+This dataset is a synthetic creation based on established scientific principles and publicly available half-life data of isotopes.

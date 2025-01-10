@@ -1,0 +1,32 @@
+
+Title: Nuclear Power Plant Incidents and Accidents (1945–2015)
+
+Context:
+This dataset provides a comprehensive record of 216 incidents and accidents occurring at nuclear power plants worldwide from 1945 to 2015. It includes detailed information on costs, locations, severity, and descriptions of these events, offering insights into the risks and consequences associated with nuclear energy.
+
+The visualization highlights significant nuclear disasters, particularly the catastrophic spike in 1986 (Chernobyl) and the 2011 Fukushima disaster, illustrating the evolving safety measures and their global impact over time.
+
+Data Sources:
+The dataset was compiled and analyzed in the following publications:
+1. “Reassessing the Safety of Nuclear Power” by Spencer Wheatley, Benjamin Sovacool, and Didier Sornette, published in the May issue of the journal Energy Research and Social Science.
+2. “Of Disasters and Dragon Kings: A Statistical Analysis of Nuclear Power Incidents and Accidents” by the same authors, published in the May issue of the journal Risk Analysis.
+
+Dataset Content:
+Columns in the dataset:
+- Date: The date when the incident or accident occurred.
+- Location: The geographical location of the nuclear power plant.
+- Cost (millions 2013US$): The estimated economic cost of the event in 2013 US dollars.
+- INES: International Nuclear Event Scale severity rating of the incident (ranging from 1 to 7).
+- Smyth Magnitude: A measure indicating the magnitude of the incident.
+- Region: The region where the nuclear power plant is located.
+- Description: A brief summary of the incident or accident.
+- Fatalities: The number of fatalities resulting from the incident.
+
+Data Visualization:
+The line chart visualization plots the timeline of incidents and accidents, revealing:
+- A sharp spike in 1986, corresponding to the Chernobyl disaster, one of the most severe nuclear incidents in history.
+- A smaller peak in 2011, reflecting the Fukushima Daiichi disaster, caused by a massive earthquake and tsunami in Japan.
+- Minimal activity before the 1980s, demonstrating the relatively low occurrence of nuclear incidents during the early days of nuclear power development.
+
+Acknowledgments:
+The dataset is a result of rigorous research and analysis, as published in the aforementioned journals. The visualization and preprocessing efforts aim to enhance understanding of nuclear energy risks and aid in formulating robust safety measures.
