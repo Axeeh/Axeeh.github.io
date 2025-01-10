@@ -138,36 +138,64 @@
 	        <li>Applied linear interpolation to fill missing values.</li>
 	        <li>Summed isotope concentrations at the country level for a consolidated overview.</li>
 	    </ol>
-</section>
+	</section>
 
 	<section>
-            <h2>Visualization (1) </h2>
-	        **Tool Used:** Flourish
-		**Chart Type:** Alluvial Chart
-		**Description:** The visualization shows the distribution of isotope concentrations across various countries in Europe. Each flow represents the contribution of `iodine131`, `caesium134`, and `caesium137` to the total concentration for a country.
-		**Key Insights:**
- 			- Highlighted the geographic spread and relative contribution of isotopes to contamination levels.
-  			- Showcased how certain countries experienced significantly higher concentrations.
-        </section>
+    	    <h2>Visualization (1)</h2>
+	    <ul>
+	        <li><strong>Tool Used</strong>: Flourish</li>
+	        <li><strong>Chart Type</strong>: Alluvial Chart</li>
+	        <li><strong>Description</strong>:
+	            <p>
+	                Displays the distribution of isotope concentrations across various countries in Europe. Each flow represents 
+	                the contribution of <code>iodine131</code>, <code>caesium134</code>, and <code>caesium137</code> to the total concentration for a country.
+	            </p>
+	        </li>
+	        <li><strong>Key Insights</strong>:
+	            <ul>
+	                <li>Highlighted the geographic spread and relative contribution of isotopes to contamination levels.</li>
+	                <li>Showcased how certain countries experienced significantly higher concentrations.</li>
+	            </ul>
+	        </li>
+	    </ul>
+	</section>
 
 	<section>
-            <h2>Pre-Processing Steps (2)</h2>
-	        The preprocessing process involved calculating the decay curves of three radioactive isotopes: Iodine-131, Caesium-134, and Caesium-137.
-		The decay was modeled over a time span of 50,000 days based on their respective half-lives.
-		For each isotope, the fraction remaining over time was calculated using the radioactive decay formula
-		A resulting dataset was prepared for visualization, Reshaped the dataset to have isotopes as rows and time points as columns
-        </section>
+	   <h2>Pre-Processing Steps (2)</h2>
+	    <p>
+	        The preprocessing process involved calculating the decay curves of three radioactive isotopes: 
+	        <code>Iodine-131</code>, <code>Caesium-134</code>, and <code>Caesium-137</code>. The decay was modeled 
+	        over a time span of 50,000 days based on their respective half-lives. The fraction remaining over time 
+	        was calculated using the radioactive decay formula. The dataset was reshaped to have isotopes as rows 
+	        and time points as columns.
+	    </p>
+	</section>
 
 	<section>
-            <h2>Visualization (2)</h2>
-	        **Tool Used:** Flourish
-		**Chart Type:** Line Chart Race
-		**Description:** The visualization dynamically showcases the decay of the three isotopes over time
-		**Key Insights:**
-			- Nuclear disasters are not just short-term crises. They unfold in wave
-			- Caesium isotopes, especially Caesium-137, remain a concern today, making parts of the region uninhabitable decades later.
-			- This knowledge helps shape policies for nuclear safety, disaster response, and long-term environmental recovery efforts.
-        </section>
+	    <h2>Visualization (2)</h2>
+	    <ul>
+	        <li><strong>Tool Used</strong>: Flourish</li>
+	        <li><strong>Chart Type</strong>: Line Chart Race</li>
+	        <li><strong>Description</strong>:
+	            <p>
+	                The visualization dynamically showcases the decay of the three isotopes over time.
+	            </p>
+	        </li>
+	        <li><strong>Key Insights</strong>:
+	            <ul>
+	                <li>Nuclear disasters are not just short-term crises. They unfold in waves.</li>
+	                <li>
+	                    Caesium isotopes, especially Caesium-137, remain a concern today, making parts of the 
+	                    region uninhabitable decades later.
+	                </li>
+	                <li>
+	                    This knowledge helps shape policies for nuclear safety, disaster response, and long-term 
+	                    environmental recovery efforts.
+	                </li>
+	            </ul>
+	        </li>
+	    </ul>
+	</section>
 
 
 	<section>
@@ -177,30 +205,58 @@
         </section>
 
 	<section>
-            <h2>Visualization (3)</h2>
-	        - **Tool Used:** Flourish
-		- **Chart Type:** Line Chart 
-		- **Description:** The plot showcases a clear timeline of nuclear incidents from 1945 to 2015.
-		- **Key Insights:**
-			- The absence of significant activity before the 1980s underscores the relatively low occurrence of nuclear incidents during the early days of nuclear energy development.
-			- The post-Chernobyl period is marked by heightened global awareness and more stringent safety regulations, as reflected by the lower frequency of severe incidents in subsequent years, even though there is far more activity than the early developments
-			- Fukushima Daiichi nuclear disaster, triggered by a massive earthquake and tsunami in Japan, could have been far worse if not for the awareness and safety measures developed in response to Chernobyl.
-        </section>
+	    <h2>Pre-Processing Steps (3)</h2>
+	    <ol>
+	        <li>Dropped unnecessary columns like <code>end_time</code> and <code>duration</code>.</li>
+	        <li>Removed missing values.</li>
+	    </ol>
+	</section>
+	
+	<section>
+	    <h2>Visualization (3)</h2>
+	    <ul>
+	        <li><strong>Tool Used</strong>: Flourish</li>
+	        <li><strong>Chart Type</strong>: Line Chart</li>
+	        <li><strong>Description</strong>:
+	            <p>
+	                The plot showcases a clear timeline of nuclear incidents from 1945 to 2015.
+	            </p>
+	        </li>
+	        <li><strong>Key Insights</strong>:
+	            <ul>
+	                <li>The absence of significant activity before the 1980s underscores the relatively low occurrence of nuclear incidents during the early days of nuclear energy development.</li>
+	                <li>
+	                    The post-Chernobyl period is marked by heightened global awareness and more stringent safety 
+	                    regulations, as reflected by the lower frequency of severe incidents in subsequent years, 
+	                    even though there is far more activity than the early developments.
+	                </li>
+	                <li>
+	                    The Fukushima Daiichi nuclear disaster, triggered by a massive earthquake and tsunami in Japan, 
+	                    could have been far worse if not for the awareness and safety measures developed in response to Chernobyl.
+	                </li>
+	            </ul>
+	        </li>
+	    </ul>
+	</section>
 
 
 
         <section>
             <h2>Insights</h2>
             <p>
-                The heightened global focus on nuclear safety post-Chernobyl led to advances in reactor design, improved operational protocols, and more robust international oversight. As a result, modern nuclear facilities are equipped with enhanced safeguards, reducing the likelihood of severe accidents.
-            </p>
+		The heightened global focus on nuclear safety post-Chernobyl led to advances in reactor design, improved 
+        	operational protocols, and more robust international oversight. As a result, modern nuclear facilities 
+       		are equipped with enhanced safeguards, reducing the likelihood of severe accidents.           
+	    </p>
         </section>
 
         <section>
             <h2>Conclusion</h2>
-            <p>
-                ...
-            </p>
+	    <p>
+		The heightened global focus on nuclear safety post-Chernobyl led to advances in reactor design, improved 
+	        operational protocols, and more robust international oversight. As a result, modern nuclear facilities 
+	        are equipped with enhanced safeguards, reducing the likelihood of severe accidents.
+	    </p>
         </section>
     </main>
 
