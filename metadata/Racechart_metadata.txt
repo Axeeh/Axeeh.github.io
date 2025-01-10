@@ -1,1 +1,17 @@
+**Title:** Electricity Generation Race Chart
 
+**Context:**
+This Dataset tracks the Electricity generation in the world, for each type (Nuclear, Wind, Solar...) year by year.
+
+**Data Sources:**
+The dataset used for this visualizaiton contains yearly electricity generation, capacity, emissions, import and demand data for over 200 geographies. Data is collected from multi-country datasets (EIA, Eurostat, BP, UN, WhiteHouse) as well as national sources (e.g China data from the National Bureau of Statistics).
+
+**Dataset Content:**
+Columns in the dataset:
+- `Country`: Full country name.
+- `Year`: Year.
+- `Category`: Type of value.
+- `Variable`: Source of Energy.
+
+**Acknowledgments:**
+The dataset derived from EMBER. 
