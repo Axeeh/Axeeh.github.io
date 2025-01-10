@@ -1,1 +1,17 @@
+**Title:** Worldwide Nuclear Energy Capacity
 
+**Context:**
+This Dataset tracks the Energy Capacity (MW) for each active and inactive Nuclear Reactor in the world.
+
+**Data Sources:**
+The data for this visualization was sourced from the Global Nuclear Energy Dataset
+
+**Dataset Content:**
+Columns in the dataset:
+- `Country/Area`: Full country name.
+- `Capacity (MW)`: Energy Capacity in MW.
+- `Status`: Reactor Status.
+- `Reactor Type`: Type of Reactor.
+
+**Acknowledgments:**
+The dataset and its preprocessing were derived from Global Energy Monitor.
