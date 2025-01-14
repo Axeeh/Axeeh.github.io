@@ -92,7 +92,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 colorbar: {
                     title: 'Capacity (MW)',  
-                    thickness: 15
+                    thickness: 15,
+                    titlefont: {
+                        color: '#FFB700'
+                    },
+                    tickfont: {
+                        color: '#FFB700'
+                    }
                 }
             };
 
